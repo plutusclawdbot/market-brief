@@ -1,4 +1,4 @@
-# BRIEF.md — Daily Market Overview (Stanley Druckenmiller Style)
+# BRIEF.md — Daily Market Overview (Stanley Druckenmiller Mode)
 
 ## Objective
 Produce a **complete but succinct** market overview covering:
