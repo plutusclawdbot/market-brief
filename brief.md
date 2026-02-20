@@ -103,7 +103,26 @@ Output format:
 - Mark **high-impact** releases with `🔥`
 - Add one final line: `Most market-moving window this week: ...`
 
-### 11) Bottom Line (PM Decision Layer)
+### 11) Podcast Signal Check (Required)
+Analyze selected podcasts for market-relevant signal.
+
+Start with:
+- **All-In Podcast (latest episode)**
+
+For each episode analyzed, provide:
+- Episode title + publication date
+- 5–10 key points
+- Market commentary extraction:
+  - macro view
+  - rates/inflation view
+  - equities/tech view
+  - crypto/AI/policy implications
+- Actionable alpha:
+  - 3–5 tradeable takeaways
+  - confidence tags [High]/[Med]/[Low]
+- Distinguish **signal vs noise/hot takes**
+
+### 12) Bottom Line (PM Decision Layer)
 Provide:
 - Base case (55–65%)
 - Alternative case (20–30%)
