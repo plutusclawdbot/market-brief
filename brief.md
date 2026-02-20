@@ -66,11 +66,30 @@ Then provide:
 - 3–5 interpretation bullets: what this flow implies about attention/risk narrative
 - Flag when market activity is event-driven noise vs durable macro signal
 
-### 8) Actionable Watchlist (Next 1–2 Weeks)
+### 8) CT Sentiment & Alpha Scan (Required)
+Pull latest **200 posts** from CT list (`ct` = `https://x.com/i/lists/1933193197817135501`) and analyze:
+
+```bash
+bird list-timeline https://x.com/i/lists/1933193197817135501 -n 200 --json
+```
+
+Then provide:
+- **Sentiment split**: Bullish / Bearish / Neutral (% and counts)
+- **Who is bullish**: top accounts + brief thesis tags
+- **Who is bearish**: top accounts + brief thesis tags
+- **HYPE / Hyperliquid mentions**:
+  - count of posts mentioning `HYPE`, `Hyperliquid`, or `$HYPE`
+  - key narratives (positive/negative/neutral)
+- **Actionable alpha**:
+  - 5–10 highest-signal observations
+  - separate **noise** vs **tradeable insight**
+  - include confidence tags: [High]/[Med]/[Low]
+
+### 9) Actionable Watchlist (Next 1–2 Weeks)
 - 10–15 high-signal catalysts (data, central bank, auctions, geopolitics, earnings clusters)
 - For each: expected market sensitivity and likely cross-asset reaction map
 
-### 9) Bottom Line (PM Decision Layer)
+### 10) Bottom Line (PM Decision Layer)
 Provide:
 - Base case (55–65%)
 - Alternative case (20–30%)
