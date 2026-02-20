@@ -126,7 +126,7 @@ For each episode analyzed, provide:
 Pull and analyze latest earnings-call transcripts for the most systemically important US companies.
 
 Default coverage basket (unless overridden):
-- **Mega-cap core:** AAPL, MSFT, NVDA, AMZN, GOOGL, META
+- **Mega-cap core:** AAPL, MSFT, NVDA, AMZN, GOOGL, META, TSLA
 - **Macro bellwethers:** JPM, UNH, XOM, WMT
 
 For each company, provide:
