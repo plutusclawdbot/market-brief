@@ -89,7 +89,21 @@ Then provide:
 - 10–15 high-signal catalysts (data, central bank, auctions, geopolitics, earnings clusters)
 - For each: expected market sensitivity and likely cross-asset reaction map
 
-### 10) Bottom Line (PM Decision Layer)
+### 10) Pending Economic Indicators (Week Ahead) (Required)
+Include a compact forward calendar for the next 7 days:
+- Date/time (Europe/London)
+- Country/region
+- Indicator/event name
+- Importance: High / Medium / Low
+- Consensus (if available)
+- Why it matters (one line)
+
+Output format:
+- Group by day (Mon → Sun)
+- Mark **high-impact** releases with `🔥`
+- Add one final line: `Most market-moving window this week: ...`
+
+### 11) Bottom Line (PM Decision Layer)
 Provide:
 - Base case (55–65%)
 - Alternative case (20–30%)
