@@ -132,6 +132,7 @@ Default coverage basket (unless overridden):
 For each company, provide:
 - Company + quarter/date of transcript
 - 3–5 management takeaways (demand, pricing, margins, capex, guidance)
+- **Change vs last quarter (Required):** what materially changed in management tone, guidance, demand commentary, or capex plans
 - Tone score: Bullish / Neutral / Bearish
 - Commentary tags: growth, inflation, labor, consumer health, enterprise spend, AI capex, credit stress
 - One-line market implication
