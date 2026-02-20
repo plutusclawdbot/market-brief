@@ -122,7 +122,26 @@ For each episode analyzed, provide:
   - confidence tags [High]/[Med]/[Low]
 - Distinguish **signal vs noise/hot takes**
 
-### 12) Bottom Line (PM Decision Layer)
+### 12) Earnings Transcript Signal (Required)
+Pull and analyze latest earnings-call transcripts for the most systemically important US companies.
+
+Default coverage basket (unless overridden):
+- **Mega-cap core:** AAPL, MSFT, NVDA, AMZN, GOOGL, META
+- **Macro bellwethers:** JPM, UNH, XOM, WMT
+
+For each company, provide:
+- Company + quarter/date of transcript
+- 3–5 management takeaways (demand, pricing, margins, capex, guidance)
+- Tone score: Bullish / Neutral / Bearish
+- Commentary tags: growth, inflation, labor, consumer health, enterprise spend, AI capex, credit stress
+- One-line market implication
+
+Then add:
+- **Cross-company synthesis (5–10 bullets):** what is consistent vs diverging
+- **US macro read-through:** what this basket implies for growth/inflation cycle
+- **Actionable alpha:** 5–10 tradeable observations with confidence tags [High]/[Med]/[Low]
+
+### 13) Bottom Line (PM Decision Layer)
 Provide:
 - Base case (55–65%)
 - Alternative case (20–30%)
